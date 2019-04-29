@@ -12,19 +12,39 @@ RESULT:
 SELECT all Employee records from the database
 
 RESULT:
+1	Chuck	Jones	manager	100000
+2	Marty	Krofft	engineer	80000
+3	Peter	Barker	developer	50000
+4	Sam	Sham	developer	35000
+5	Ellen	Jones	developer	38000
+
 
 SELECT only the DEVELOPERS from the table
 
 RESULT:
+3	Peter	Barker	developer	50000
+4	Sam	Sham	developer	35000
+5	Ellen	Jones	developer	38000
+
+
 
 SELECT only the Employees making more than 50000
 
 RESULT:
+1	Chuck	Jones	manager	100000
+2	Marty	Krofft	engineer	80000
+
 
 UPDATE the salary for Ellen Musk and give a raise to 42000
 
 RESULT:
+5	Ellen	Jones	developer	42000
 
 DELETE Sam Sham
 
 RESULT:
+1	Chuck	Jones	manager	100000
+2	Marty	Krofft	engineer	80000
+3	Peter	Barker	developer	50000
+5	Ellen	Jones	developer	42000
+
